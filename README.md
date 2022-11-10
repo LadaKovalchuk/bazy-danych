@@ -1,3 +1,4 @@
 # Bazy-danych
 Sprobuję wszystko to zalatwić...
-Stworzyła nowy "code/(kod)", ale z kodami i z lekcjami. (Można potem ich wzięć ze sobą)
+
+Stworzyła nowy "code/(kod)" z podprzednimi lekcjami. (Można potem ich wzięć ze sobą)
