@@ -1,0 +1,8 @@
+CREATE TABLE postaci (id_postaci INTEGER PRIMARY KEY NOT NULL, nazwa VARCHAR(40),rodzaj ENUM
+('prak'), 'kobieta','wiking'), data_ur DATE, wiek TINYINT);
+
+SHOW TABLES;
+
+DESCRIBE postaci;
+
+ctrl + c
