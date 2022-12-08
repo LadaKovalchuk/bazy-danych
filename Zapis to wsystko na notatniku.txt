@@ -1,4 +1,4 @@
-
+Host/IP Adress
 PuTTY
 
 mysql -u me -p
@@ -13,22 +13,6 @@ status;
 
 _________________________________________________________________________________________
  	 	 	 	 	Lek. 1
-
-_________________________________________________________________________________________
-
-New
-
-CREATE:
-
-CREATE DATABASE tutorialLK;
-
-CREATE TABLE table_name
-(column 1_name datatype (size),
-column 2_name datatype (size),)
-
-Data Type:-
-Size
-
 
 _________________________________________________________________________________________
  	 	 	 	 	Lek. 2
@@ -106,6 +90,21 @@ VALUES ("jyoti","sinha",1,9958020155,700),
 SELECT * FROM student_info;
 
 
+New
+
+CREATE:
+
+CREATE DATABASE tutorialLK;
+
+CREATE TABLE table_name
+(column 1_name datatype (size),
+column 2_name datatype (size),)
+
+Data Type:-
+Size
+
+
+
 DELETE TABLE
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -139,7 +138,7 @@ DROP
 DROP TABLE;
 DROP DATABASE;
 
-RENAME 
+RENAME
 
 TRUNCATE table_name
 
@@ -150,7 +149,7 @@ TRUNCATE table_name
 
  	 	SQL DATA TYPES
 BIT - binary 0 or 1
-INT - bahatenkok
+INT - bahatenьok
 TINYINT - 0 and 255
 BIGINT - dofiga
 SMALLINT - (-32768) 32767 or (+32767)
@@ -183,18 +182,5 @@ DELETE
 
 
 
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-
-
-
-
-
-
-
-_________________________________________________________________________________________
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
