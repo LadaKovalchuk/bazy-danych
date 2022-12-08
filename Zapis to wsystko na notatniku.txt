@@ -20,8 +20,8 @@ ________________________________________________________________________________
 1.CREATE TABLE postac (id_postaci kl. główny, liczba samozwiększająca się, nazwa VARCHAR
 (40), rodzaj - typ wyliczeniowy (wiking, ptak, kobieta), data_ur - typ daty, wiek -
 liczba nieujemna.
-2. Do tabeli postac dodaj rekordy, gdzie kolumna nazwa to Bjorn, Drozd, Tesciowa (w pozostałe 
-pola wpisz w miarę sensowne dane) .
+2. Do tabeli postac dodaj rekordy, gdzie kolumna nazwa to Bjorn, Drozd, Tesciowa
+(w pozostałe pola wpisz w miarę sensowne dane) .
 3. Zmodyfikuj wiek teściowej na 88 lat.
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Stwórz tabelę walizka:
@@ -33,9 +33,10 @@ usuwanie.
 2. Dodaj do pola kolor wartość domyślną – różowy.
 3. Dodaj jedną walizkę dla Bjorna i jedną walizkę dla teściowej.
 NIESPODZIANKA
-Bjorn postanowił zostawić małą niespodziankę swojej teściowej. Wiedział, że ta nie wytrzymałaby bez 
-zaglądania do spiżarni, gdzie trzymał jej ukochany bigos, dlatego do każdego słoika dodał po kilka 
-papryczek chili. W taki sposób teściowa posiadła umiejętność ziania ogniem.
+Bjorn postanowił zostawić małą niespodziankę swojej teściowej. Wiedział, że ta nie
+wytrzymałaby bez zaglądania do spiżarni, gdzie trzymał jej ukochany bigos, dlatego
+do każdego słoika dodał po kilka papryczek chili. W taki sposób teściowa posiadła
+umiejętność ziania ogniem.
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Stwórz tabelę izba z polami:
 a. adres_budynku - część klucza głównego
@@ -73,56 +74,137 @@ ________________________________________________________________________________
  	 	 	 	 	Lek. 2
 					
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+a) uśmierć dwóch najstarszych wikingów, ale to nie może być Bjorn (DELETE z WHERE)
+b) usuń klucz główny z tabeli postac - może być potrzebnych kilka komend
+(np. odłączenie kluczy obcych)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+a) do tabeli postać dodaj pole pesel składające się z 11 znaków i ustaw to pole na
+klucz główny 
+b) w tabeli postać zmień pole rodzaj, tak, aby możliwe było dodanie syreny 
+c) wstaw do tabeli syrenę o nazwie Gertruda Nieszczera
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+a) Wszystkie postacie, które mają w swojej nazwie 'a', wsadź na statek Bjorna 
+b) Zmniejsz ładowność wszystkim statkom o 30%, których data wodowania była w XX wieku 
+c) ustaw warunek sprawdzający czy wiek postaci nie jest większy od 1000 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+a) Do postaci dodaj węża Loko, tylko nie wsadzaj go na statek 
+b) Stwórz nową tabelę na podstawie tabeli Postacie (dokładnie takie same pola), nazwij
+ją Marynarz - wrzuć do tej tabeli wszystkie postacie które mają zdefiniowany statek 
+c) dostosuj odpowiednio klucze główne i obce 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-_________________________________________________________________________________________
-
-
+a) wysadź wszystkich ze statku 
+b) uśmierć jednego wikinga 
+c) zniszcz wszystkie statki 
+d) usuń tabelę statek 
+e) stwórz tabelę zwierz z polami id - klucz główny samo zwiększający się, nazwa -
+ciąg znaków, wiek - liczba 
+f) przekopiuj z tabeli postac wszystkie zwierzaki
 _________________________________________________________________________________________
  	 	 	 	 	Lek. 3
 					
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Skopiuj tabele 'kreatura','zasob','ekwipunek' z bazy 'wikingowie' do swojej bazy. 
+2. Wypisz wszystkie rekordy z tabeli 'zasob'. 
+3. Wypisz wszystkie rekordy z tabeli 'zasob' gdzie typ to jedzenie. 
+4. Wypisz 'idZasobu', 'ilosc', dla kreatur o id 1,3,5.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Wyświetl kreatury, które nie są wiedźmą i dźwigają co najmniej 50kg. 
+2. Wyświetl zasoby, które ważą pomiędzy 2 a 5 kg. 
+3. Wyświetl kreatury, których nazwa zawiera 'or' i które dźwigają między 30kg a 70kg.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Wyświetl zasoby, które zostały pozyskane w miesiącach lipcu i sierpniu. 
+2. Wyświetl zasoby, które mają zdefiniowany rodzaj od najlżejszego do najcięższego. 
+3. Wyświetl 5 najstarszych kreatur.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Wyświetl unikalne rodzaje zasobów. 
+2. Wyświetl jako jedną kolumnę nazwę i rodzaj kreatury (w postaci: nazwa - rodzaj), gdzie 
+rodzaj rozpoczyna się od 'wi'. 
+3. Wyświetl zasoby z całkowitą wagą danego zasobu (ilość * waga) dla zasobów pozyskanych w 
+latach 2000-2007
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Zakładając, że każdy rodzaj jedzenia to 30% odpadu, wyświetl masę właściwego jedzenia 
+(netto) oraz wagę odpadków. 
+2. Wyświetl zasoby, które nie mają rodzaju. 
+3. Wyświetl wszystkie unikalne rodzaje zasobów, których nazwa zaczyna się od 'Ba' lub kończy 
+się na 'os'. Dane posortuj alfabetycznie
 
-~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 _________________________________________________________________________________________
  	 	 	 	 	Lek. 4
 					
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wyświetl średnią wagę wszystkich wikingów 
+2. Wyświetl średnią wagę oraz liczbę kreatur dla każdego rodzaju 
+3. wyświetl średni wiek dla każdego rodzaju kreatury
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Dla każdego rodzaju zasobu wyświetlić sumę wag tego zasobu.
+2. Dla każdej nazwy zasobu wyświetlić średnią wagę, jeśli ilość jest równa co najmniej 4 oraz 
+jeśli ta suma wag jest większa od 10.
+3. Wyświetlić ile jest różnych nazw dla każdego rodzaju zasobu, jeśli minimalna liczba zasobu 
+jest większa od 1.
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+1. Wyświetlić dla każdej kreatury ilości zasobów jakie niesie.
+2. Wyświetlić dla każdej kreatury nazwy zasobów jakie posiada.
+3. Wyświetlić kreatury, które nie posiadają żadnego ekwipunku.
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Wyświetlić nazwy wikingów, którzy urodzili się w latach 70-tych XVII wieku oraz nazwy 
+zasobów, które posiadają (użyj natural joina jeśli się da).
+2. Wyświetlić nazwy 5 najmłodszych kreatur, które w ekwipunku posiadają jedzenie.
+3. Wypisz obok siebie nazwy kreatur, których numer idKreatury różni się o 5 (np. Bjorn - Astrid, 
+Brutal - Ibra itd.).
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Dla każdego rodzaju kreatury wyświetlić średnią wagę zasobów, jaką posiadają w ekwipunku, 
+jeśli kreatura nie jest małpą ani wężem i ilość ekwipunku jest poniżej 30.
+2. Dla każdego rodzaju kreatury wyświetlić nazwę, datę urodzenia i rodzaj najmłodszej i 
+najstarszej kreatury
 
 _________________________________________________________________________________________
  	 	 	 	 	Lek. 5
 					
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Przekopiuj jeszcze raz z bazy wikingowie rekordy z tabeli kreatura, przekopiuj dodatkowo 
+tabele: uczestnicy, etapy_wyprawy, sektor, wyprawa, wraz z danymi. 
+2. Wypisz nazwy kreatur, które nie uczestniczyły w żadnej wyprawie.
+3. Dla każdej wyprawy wypisać jej nazwę oraz sumę ilości ekwipunku, jaka została zabrana przez 
+uczestników tej wyprawy.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Dla każdej wyprawy wypisz jej nazwę, liczbę uczestników, oraz nazwy tych uczestników w 
+jednej linii.
+2. Wypisz kolejne etaty wszystkich wypraw wraz z nazwami sektorów, sortując najpierw według 
+daty początku wyprawy, a następnie według kolejności występowania etapów. W każdym 
+etapie określ nazwę kierownika danej wyprawy
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Wypisać ile razy dany sektor był odwiedzany podczas wszystkich wypraw (nazwa sektora, 
+ilość odwiedzin). Jeśli nie był odwiedzony ani razu, wpisz zero. 
+2. W zależności od ilości wypraw, w jakich brała udział dana kreatura wypisz: nazwa kreatury, 
+'brał udział w wyprawie' - gdy liczba > 0, 'nie brał udziału w wyprawie', gdy równa zero.
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Zadanie 4
+1. Dla każdej wyprawy wypisz jej nazwę oraz sumę liczby znaków, które zostały użyte przy 
+pisaniu dziennika, jeśli ta liczba znaków jest mniejsza od 400.
+2. Dla każdej wyprawy podaj średnią wagę zasobów, jakie były niesione przez uczestników tej 
+wyprawy.
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Wypisać nazwę kreatury oraz ile miała dni (wiek w dniach) w momencie rozpoczęcia 
+wyprawy, dla wypraw, które przechodziły przez chatkę dziadka.
 _________________________________________________________________________________________
  	 	 	 	 	Lek. 6
 					
