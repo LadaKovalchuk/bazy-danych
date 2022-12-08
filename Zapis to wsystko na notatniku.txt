@@ -1,0 +1,200 @@
+
+PuTTY
+
+mysql -u me -p
+
+show databases;
+
+use me;
+
+status;
+
+
+
+_________________________________________________________________________________________
+ 	 	 	 	 	Lek. 1
+
+_________________________________________________________________________________________
+
+New
+
+CREATE:
+
+CREATE DATABASE tutorialLK;
+
+CREATE TABLE table_name
+(column 1_name datatype (size),
+column 2_name datatype (size),)
+
+Data Type:-
+Size
+
+
+_________________________________________________________________________________________
+ 	 	 	 	 	Lek. 2
+_________________________________________________________________________________________
+
+
+_________________________________________________________________________________________
+ 	 	 	 	 	Lek. 3
+_________________________________________________________________________________________
+ 	 	 	 	 	Lek. 4
+_________________________________________________________________________________________
+ 	 	 	 	 	Lek. 5
+_________________________________________________________________________________________
+ 	 	 	 	 	Lek. 6
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+					PRYKLADY
+
+CREATE TABLE student_info
+( Fname VARCHAR (30) NOT NULL,
+L name VARCHAR (30) NOT NULL,
+Roll INT,
+Phone RIGINT,
+Marks INT
+);
+
+INSERT INTO student (id int(2), first_name VARCHAR(15), last_name VARCHAR(15), phone int(10),
+end int(1));
+
+SELECT * FROM student_info;
+
+
+ALTER TABLE student
+ADD addres VARCHAR(40)
+AFTER phone;
+
+ALTER TABLE student
+CHANGE addres residency VARCHAR(30)
+
+
+ALTER TABLE student
+DROP residency 
+
+RENAME TABLE studens TO details;
+
+NEW TABLE (use data_base)
+
+SELECT * FROM student;
+
+TRUNCATE TABLE studens
+
+
+INSERT
+INSERT INTO studend (Id, name, phone...) VALUES ("Krity", 23443..)
+INSERT INTO table_name VALUES (val1,val2...);
+
+SELECT * FROM table_name
+
+CREATE TABLE student_info
+( Fname VARCHAR (30) NOT NULL,
+L name VARCHAR (30) NOT NULL,
+Roll INT,
+Phone RIGINT,
+Marks INT
+);
+
+INSERT INTO student_info (Fname, Lname, Roll, Phone, Marks)
+VALUES ("jyoti","sinha",1,9958020155,700),
+("vedika", "jha", 2,46537587567,385);
+
+SELECT * FROM student_info;
+
+
+DELETE TABLE
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					Szybki Notatnik
+
+
+
+SHOW
+
+ALTER
+- add new column
+- Rename
+- Change data/size
+- Delete
+
+ALTER TABLE table_name
+ADD new_col_name data_type(size)
+AFTER cal_name;
+
+ALTER TABLE table_name
+CHANGE old_name new_name data_type(size)
+
+ALTER TABLE table_name
+DROP column_name
+
+DESCRIBE
+
+SHOW COLUMNS IN column_name
+_________________________________________________________________________________________
+DROP
+DROP TABLE;
+DROP DATABASE;
+
+RENAME 
+
+TRUNCATE table_name
+
+
+
+
+
+
+ 	 	SQL DATA TYPES
+BIT - binary 0 or 1
+INT - bahatenkok
+TINYINT - 0 and 255
+BIGINT - dofiga
+SMALLINT - (-32768) 32767 or (+32767)
+DECIMAL - dofiga w stepeni
+
+APPROXIMATE NUMERIC DATA TYPE
+
+DATA
+TYPE
+DATATIME
+
+STRING DATA TYPE
+CHAR DO 8000 CANT CHANGE
+VARCHAR (SIZE) DO 8000 MONA CHANGE
+
+
+DATA MANIPULATION LANGUAGE (DML)
+
+SELECT
+SELECT * FROM table_name
+INSERT
+INSERT INTO table_name (column1_name, column2_name,...) VALUES (val 1, val2...)
+INSERT INTO table_name VALUES (val1,val2...);
+
+
+UPDATE
+
+DELETE
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+_________________________________________________________________________________________
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
