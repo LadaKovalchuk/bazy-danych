@@ -15,27 +15,147 @@ use me;
 status;
 _________________________________________________________________________________________
  	 	 	 	 	Lek. 1
-Biorn
-
-CREATE TABLE Biorn ()
+					
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.CREATE TABLE postac (id_postaci kl. główny, liczba samozwiększająca się, nazwa VARCHAR
+(40), rodzaj - typ wyliczeniowy (wiking, ptak, kobieta), data_ur - typ daty, wiek -
+liczba nieujemna.
+2. Do tabeli postac dodaj rekordy, gdzie kolumna nazwa to Bjorn, Drozd, Tesciowa (w pozostałe 
+pola wpisz w miarę sensowne dane) .
+3. Zmodyfikuj wiek teściowej na 88 lat.
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Stwórz tabelę walizka:
+a. id_walizki - liczba samozwiększająca się, klucz główny
+b. pojemnosc - liczba nieujemna
+c. kolor - typ wyliczeniowy (różowy, czerwony, tęczowy, żółty)
+d. id_wlasciciela - klucz obcy odwołujący się do tabeli postać, ustawione kaskadowe 
+usuwanie.
+2. Dodaj do pola kolor wartość domyślną – różowy.
+3. Dodaj jedną walizkę dla Bjorna i jedną walizkę dla teściowej.
+NIESPODZIANKA
+Bjorn postanowił zostawić małą niespodziankę swojej teściowej. Wiedział, że ta nie wytrzymałaby bez 
+zaglądania do spiżarni, gdzie trzymał jej ukochany bigos, dlatego do każdego słoika dodał po kilka 
+papryczek chili. W taki sposób teściowa posiadła umiejętność ziania ogniem.
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Stwórz tabelę izba z polami:
+a. adres_budynku - część klucza głównego
+b. nazwa_izby - część klucza głównego
+c. metraz - liczba nieujemna 
+d. wlasciciel - klucz obcy do tabeli postać, ustaw null w razie usunięcia.
+2. Za pomocą oddzielnego polecenia dodaj pole kolor izby po polu metraż. Ustaw 
+domyślny kolor na czarny.
+3. Stwórz izbę spiżarnia.
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Stwórz tabelę przetwory z polami:
+a. id_przetworu - klucz główny
+b. rok_produkcji - typ roku, domyślnie 1654
+c. id_wykonawcy - klucz obcy do tabeli postać
+d. zawartosc - ciąg znaków
+e. dodatek - ciąg znaków - domyślnie papryczka chilli
+f. id_konsumenta - klucz obcy do tabeli postać
+2. Wstaw bigos z papryczką chilli do tabeli przetwory.
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Wstaw 5 wikingów do tabeli postaci.
+2. Stwórz tabelę statek z polami:
+a. nazwa statku - klucz główny
+b. rodzaj statku - typ wyliczeniowy
+c. data wodowania - typ daty
+d. max_ladownosc - liczba dodatnia
+3. Dodaj dwa statki do tabeli.
+4. Dodaj pola do tabeli postac:
+a. funkcja - ciąg znaków. 
+5. Zmień funkcję u Bjorna na kapitan.
+6. Dodaj klucz obcy w tabeli postać odwołujący się do statku.
+7. Powsadzaj wikingów oraz drozda na statki. 
+8. Usuń izbę spiżarnia z tabeli izba.
+9. Usuń tabelę izba
 _________________________________________________________________________________________
  	 	 	 	 	Lek. 2
+					
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 _________________________________________________________________________________________
 
 
 _________________________________________________________________________________________
  	 	 	 	 	Lek. 3
+					
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 _________________________________________________________________________________________
  	 	 	 	 	Lek. 4
+					
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 _________________________________________________________________________________________
  	 	 	 	 	Lek. 5
+					
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 _________________________________________________________________________________________
  	 	 	 	 	Lek. 6
+					
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+_________________________________________________________________________________________
+ 	 	 	 	 	Lek. 7
+					
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~Zadanie 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=========================================================================================
 
 					PRYKLADY/Test/Rożne co nie udalo mi D:
 
